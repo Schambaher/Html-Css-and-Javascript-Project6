@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
+//import PrimeraApp from './PrimeraApp';
+
+import './index.css';
 
 
 const root = document.getElementById("root");
-ReactDOM.render( <PrimeraApp /> , root );
+ReactDOM.render( <CounterApp /> , root );
 
